@@ -1,6 +1,6 @@
 # Theory
 
-The entire theoretical background as well as the obtained results are explained in detail in the PDF [Theory_and_Results](https://github.com/Dieguinho1612/Job-Scheduling-Deep-Reinforcement-Learning/blob/main/Theory_and_Results.pdf) of my Master Thesis.
+The entire theoretical background as well as the obtained results will be explained in a paper, being hold for submission right now.
 
 <ins>Probem:</ins><br>
 We treat Job Scheduling Problems on Unrelated Machines with an initial occupation and deterministic processing times. Both, Jobs and Machines, have deadlines and weights. We want to minimize the makespan added to the weigthed sum of the Job and Machine tardinesses.<br>
