@@ -1,24 +1,31 @@
+# Quick Guide
+
+Create schedules with our neural network for custom offline job scheduling problems on unrelated machines in the [Main.ipynb](https://github.com/Dieguinho1612/Deep-Learning-for-Unrelated-Machines-Scheduling/blob/main/Notebooks/Action_Pointer.ipynb) Notebook.
+
+<br>
+
 # Theory
 
-The entire theoretical background as well as the obtained results will be explained in a paper, being hold for submission right now.
+For a detailed explanation of our approach, see our paper that is currently under submission and will be uploaded upon acceptance.
 
 <ins>Probem:</ins><br>
-We treat Job Scheduling Problems on Unrelated Machines with an initial occupation and deterministic processing times. Both, Jobs and Machines, have deadlines and weights. We want to minimize the makespan added to the weigthed sum of the Job and Machine tardinesses.<br>
+
+We treat offline job scheduling problems on unrelated machines with an initial occupation and deterministic processing times. Both, jobs and machines, have deadlines and weights for exceeding those deadlines. The goal is to minimize a complex objective function consisting of the total sum of the makespan and the weighted tardiness of jobs and machines.<br>
 
 <ins>Approach:</ins><br>
-Our approach is to apply Deep Reinforcement Learning. We will embed these problems into a markovian environment with every decision situation being a state. Policies are identified with scheduling rules. We compute the true Q-values with brute force for Job Scheduling Problems with 8 Jobs and 4 Machines. We exctract the data from these simulated states and use them to supervisedly train a Neural Network. This Neural Network contains architectures of Natural Language Processing models to handle the variability of the dimension in the data due to changing numbers of Jobs and Machines. By using it as a Target Network, we can then apply Deep Reinforcement Learning techniques. Therefore, we iteratively estimate data of Job Scheduling Problems with higher Job numbers and uptrain the Network.<br>
+Our approach is to use deep learning to create efficient schedules. We introduce a novel, sophisticated neural network architecture leveraging different architectures from Natural Language Processing. We thereby handle the inherent flexibility demands induced by varying numbers of jobs, machines and feature dimenions. The problem environment is embedded into a markovian environment: whenever a machine becomes available to either have a pending job assigned or to be terminally deactivated, a state is generated. The state's data is then fed to the neural network which produces a feasible action recommendation. To enable high-precision decision making and fast adaption to different future scenarios, we use supervised training on problem instances with no more than 8 jobs and 4 machines.
 
-<ins>Results:</ins><br>
-We compare the scheduling costs obtained by our Neural Network to the optimal costs. We will find that they do not differ much. We then compare them to a heuristic scheduling algorithm and conclude that our Neural Network vastly outperforms it.<br>
+Our neural network creates almost perfect schedules for small problem instances and demonstrates remarkable generalization capabilities to scheduling problems with much higher numbs of jobs and machines than it was trained on. When comparing induced scheduling costs, our neural network vastly outperforms an advanced dispatching rule.<br>
+
 
 # Code
 
-All the code is written in Python 3 and uploaded as Jupyter [Notebooks](https://github.com/Dieguinho1612/Job-Scheduling-Deep-Reinforcement-Learning/tree/main/Notebooks). The principal Notebook is [Main.ipynb](https://github.com/Dieguinho1612/Job-Scheduling-Deep-Reinforcement-Learning/blob/main/Notebooks/Action_Pointer.ipynb).
+All the code is written in Python 3 and uploaded as Jupyter [Notebooks](https://github.com/Dieguinho1612/Deep-Learning-for-Unrelated-Machines-Scheduling/tree/main/Notebooks). The main notebook to apply our approach is [Main.ipynb](https://github.com/Dieguinho1612/Deep-Learning-for-Unrelated-Machines-Scheduling/blob/main/Notebooks/Action_Pointer.ipynb), while the [Full_Framework.ipynb](https://github.com/Dieguinho1612/Deep-Learning-for-Unrelated-Machines-Scheduling/blob/main/Notebooks/Full_Framework.ipynb) notebook explains the entire process of our framework. Details of the neural network architecture are given in the notebook [Neural_Network.ipynb](https://github.com/Dieguinho1612/Deep-Learning-for-Unrelated-Machines-Scheduling/blob/main/Notebooks/Neural_Network.ipynb).
 
 # Files
 
-Besides the directory of Notebooks, there are two more directories containing files:
+Besides the directory of notebooks, there are two more directories containing files:
 
-- [Neural Networks](https://github.com/Dieguinho1612/Job-Scheduling-Deep-Reinforcement-Learning/tree/main/Neural_Networks): Contains the <i>h5</i>-file of the principal [Neural Network](https://github.com/Dieguinho1612/Job-Scheduling-Deep-Reinforcement-Learning/blob/main/Neural_Networks/Neural_Network.h5) after it has been trained supervisedly. It also contains its <i>h5</i>-files after having been uptrained to higher numbers of Jobs by using the corresponding estimated data sets.
-- [Data](https://github.com/Dieguinho1612/Job-Scheduling-Deep-Reinforcement-Learning/tree/main/Data): Contains all the data we computed to train, validate and test the Neural Network. It also contains all the data that we have estimated to uptrain it to higher numbers of Jobs.
+- [Neural Networks](https://github.com/Dieguinho1612/Deep-Learning-for-Unrelated-Machines-Scheduling/tree/main/Neural_Networks): Contains the <i>h5</i>-file of the principal [Neural Network](https://github.com/Dieguinho1612/Deep-Learning-for-Unrelated-Machines-Scheduling/blob/main/Neural_Networks/Neural_Network.h5) after it has underwent full supervised training.
+- [Data](https://github.com/Dieguinho1612/Deep-Learning-for-Unrelated-Machines-Scheduling/tree/main/Data): Contains all the data we computed to train, validate and test the Neural Network.
 
