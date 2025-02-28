@@ -4,7 +4,7 @@
 
 Create schedules with our neural network for custom offline job scheduling problems on unrelated machines with the [Main.ipynb](https://github.com/Dieguinho1612/Deep-Learning-for-Unrelated-Machines-Scheduling/blob/main/Notebooks/Action_Pointer.ipynb) notebook.
 
-<hr>
+<br><hr><br>
 
 # Theory
 
