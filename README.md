@@ -17,6 +17,8 @@ We treat offline job scheduling problems on unrelated machines with an initial o
 <ins>Approach:</ins><br>
 Our approach is to use deep learning to create efficient schedules. We introduce a novel, sophisticated neural network architecture leveraging different architectures from Natural Language Processing. We thereby handle the inherent flexibility demands induced by varying numbers of jobs, machines and feature dimenions. The problem environment is embedded into a markovian environment: whenever a machine becomes available to either have a pending job assigned or to be terminally deactivated, a state is generated. The state's data is then fed to the neural network which produces a feasible action recommendation. To enable high-precision decision making and fast adaption to different future scenarios, we use supervised training on problem instances with no more than 8 jobs and 4 machines.
 
+<ins>Results:</ins><br>
+
 Our neural network creates almost perfect schedules for small problem instances and demonstrates remarkable generalization capabilities to scheduling problems with much higher numbs of jobs and machines than it was trained on. When comparing induced scheduling costs, our neural network vastly outperforms an advanced dispatching rule.<br>
 
 
