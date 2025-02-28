@@ -31,5 +31,5 @@ All the code is written in Python 3 and uploaded as Jupyter [Notebooks](https://
 Besides the directory of notebooks, there are two more directories containing files:
 
 - [Neural Networks](https://github.com/Dieguinho1612/Deep-Learning-for-Unrelated-Machines-Scheduling/tree/main/Neural_Networks): Contains the <i>h5</i>-file of the principal [Neural Network](https://github.com/Dieguinho1612/Deep-Learning-for-Unrelated-Machines-Scheduling/blob/main/Neural_Networks/Neural_Network.h5) after it has underwent full supervised training.
-- [Data](https://github.com/Dieguinho1612/Deep-Learning-for-Unrelated-Machines-Scheduling/tree/main/Data): Contains all the data we computed to train, validate and test the Neural Network.
+- [Data](https://github.com/Dieguinho1612/Deep-Learning-for-Unrelated-Machines-Scheduling/tree/main/Data): Contains all the data we computed to train, validate and test the neural network.
 
