@@ -2,7 +2,7 @@
 
 <h4>Apply Neural Network to Custom Scheduling Problems</h4>
 
-Create schedules with our neural network for custom offline job scheduling problems on unrelated machines with the [Main.ipynb](https://github.com/Dieguinho1612/Deep-Learning-for-Unrelated-Machines-Scheduling/blob/main/Notebooks/Action_Pointer.ipynb) notebook.
+Create schedules with our neural network for custom offline job scheduling problems on unrelated machines with the [Main.ipynb](https://github.com/DiegoHitzges/Deep-Learning-for-Unrelated-Machines-Scheduling/blob/main/Notebooks/Action_Pointer.ipynb) notebook.
 
 <br><hr>
 
@@ -24,12 +24,12 @@ Our neural network creates almost perfect schedules for small problem instances 
 
 # Code
 
-All the code is written in Python 3 and uploaded as Jupyter [Notebooks](https://github.com/Dieguinho1612/Deep-Learning-for-Unrelated-Machines-Scheduling/tree/main/Notebooks). The main notebook to apply our approach is [Main.ipynb](https://github.com/Dieguinho1612/Deep-Learning-for-Unrelated-Machines-Scheduling/blob/main/Notebooks/Action_Pointer.ipynb), while the [Full_Framework.ipynb](https://github.com/Dieguinho1612/Deep-Learning-for-Unrelated-Machines-Scheduling/blob/main/Notebooks/Full_Framework.ipynb) notebook explains the entire process of our framework. Details of the neural network architecture are given in the notebook [Neural_Network.ipynb](https://github.com/Dieguinho1612/Deep-Learning-for-Unrelated-Machines-Scheduling/blob/main/Notebooks/Neural_Network.ipynb).
+All the code is written in Python 3 and uploaded as Jupyter [Notebooks](https://github.com/DiegoHitzges/Deep-Learning-for-Unrelated-Machines-Scheduling/tree/main/Notebooks). The main notebook to apply our approach is [Main.ipynb](https://github.com/DiegoHitzges/Deep-Learning-for-Unrelated-Machines-Scheduling/blob/main/Notebooks/Action_Pointer.ipynb), while the [Full_Framework.ipynb](https://github.com/DiegoHitzges/Deep-Learning-for-Unrelated-Machines-Scheduling/blob/main/Notebooks/Full_Framework.ipynb) notebook explains the entire process of our framework. Details of the neural network architecture are given in the notebook [Neural_Network.ipynb](https://github.com/DiegoHitzges/Deep-Learning-for-Unrelated-Machines-Scheduling/blob/main/Notebooks/Neural_Network.ipynb).
 
 # Files
 
 Besides the directory of notebooks, there are two more directories containing files:
 
-- [Neural Networks](https://github.com/Dieguinho1612/Deep-Learning-for-Unrelated-Machines-Scheduling/tree/main/Neural_Networks): Contains the <i>h5</i>-file of the principal [Neural Network](https://github.com/Dieguinho1612/Deep-Learning-for-Unrelated-Machines-Scheduling/blob/main/Neural_Networks/Neural_Network.h5) after it has underwent full supervised training.
-- [Data](https://github.com/Dieguinho1612/Deep-Learning-for-Unrelated-Machines-Scheduling/tree/main/Data): Contains all the data we computed to train, validate and test the neural network.
+- [Neural Networks](https://github.com/DiegoHitzges/Deep-Learning-for-Unrelated-Machines-Scheduling/tree/main/Neural_Networks): Contains the <i>h5</i>-file of the principal [Neural Network](https://github.com/DiegoHitzges/Deep-Learning-for-Unrelated-Machines-Scheduling/blob/main/Neural_Networks/Neural_Network.h5) after it has underwent full supervised training.
+- [Data](https://github.com/DiegoHitzges/Deep-Learning-for-Unrelated-Machines-Scheduling/tree/main/Data): Contains all the data we computed to train, validate and test the neural network.
 
