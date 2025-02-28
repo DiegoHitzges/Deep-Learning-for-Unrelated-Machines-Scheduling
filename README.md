@@ -19,7 +19,7 @@ Our approach is to use deep learning to create efficient schedules. We introduce
 
 <ins>Results:</ins><br>
 
-Our neural network creates almost perfect schedules for small problem instances and demonstrates remarkable generalization capabilities to scheduling problems with much higher numbs of jobs and machines than it was trained on. When comparing induced scheduling costs, our neural network vastly outperforms an advanced dispatching rule.<br>
+Our neural network creates almost perfect schedules for small problem instances and demonstrates remarkable generalization capabilities to scheduling problems with much higher numbers of jobs and machines than it was trained on. When comparing induced scheduling costs, our neural network vastly outperforms an advanced dispatching rule.<br>
 
 
 # Code
