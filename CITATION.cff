@@ -6,5 +6,6 @@ authors:
   orcid: "https://orcid.org/0009-0000-3978-0591"
 title: "Deep Learning for Unrelated-Machines Scheduling"
 version: v1.0.0
-date-released: 2025-03-01
+doi: 10.5281/zenodo.14983404
+date-released: 2025-03-06
 repository-code: "https://github.com/DiegoHitzges/Deep-Learning-for-Unrelated-Machines-Scheduling"
