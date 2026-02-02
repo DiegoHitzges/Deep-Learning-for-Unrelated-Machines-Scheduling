@@ -6,10 +6,10 @@ Official repository for [Deep Learning for Unrelated-Machines Scheduling: Handli
 If you use this work in your research, please cite it as follows:
 
 ```bibtex
-@InProceedings{Hitzges25neurips,
-  title     = {{DERD-Net}: Learning Depth from Event-based Ray Densities},
-  author    = {Hitzges, Diego and Ghosh, Suman and Gallego, Guillermo},
-  booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
+@InProceedings{Hitzges25icmla,
+  title     = {Deep Learning for Unrelated-Machines Scheduling: Handling Variable Dimensions},
+  author    = {Hitzges, Diego and Sagnol, Guillaume},
+  booktitle = {International Conference on Machine Learning and Applications},
   year      = {2025}
 }
 ```
