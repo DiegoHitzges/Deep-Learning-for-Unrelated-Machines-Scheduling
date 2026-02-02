@@ -1,3 +1,7 @@
+Deep Learning for Unrelated-Machines Scheduling: Handling Variable Dimensions (ICMLA 2025)
+
+Official repository for [Deep Learning for Unrelated-Machines Scheduling: Handling Variable Dimensions]([https://arxiv.org/pdf/2504.15863](https://arxiv.org/pdf/2512.19527)), by [Diego Hitzges](https://www.linkedin.com/in/diego-de-oliveira-hitzges-410943276/) and [Guillaume Sagnol](https://www.linkedin.com/in/guillaume-sagnol-a24bb89/).
+
 # Quick Guide
 
 <h4>Apply Neural Network to Custom Scheduling Problems</h4>
