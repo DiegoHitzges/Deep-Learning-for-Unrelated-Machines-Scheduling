@@ -2,7 +2,7 @@
 
 Official repository for [Deep Learning for Unrelated-Machines Scheduling: Handling Variable Dimensions](https://arxiv.org/pdf/2512.19527), by [Diego Hitzges](https://www.linkedin.com/in/diego-de-oliveira-hitzges-410943276/) and [Guillaume Sagnol](https://www.linkedin.com/in/guillaume-sagnol-a24bb89/).
 
-### Citation
+## Citation
 If you use this work in your research, please cite it as follows:
 
 ```bibtex
@@ -14,7 +14,7 @@ If you use this work in your research, please cite it as follows:
 }
 ```
 
-### Theory
+## Theory
 
 <ins>Problem:</ins><br>
 
@@ -27,13 +27,10 @@ Our approach is to use deep learning to create efficient schedules. We introduce
 
 Our neural network creates almost perfect schedules for small problem instances and demonstrates remarkable generalization capabilities to scheduling problems with much higher numbers of jobs and machines than it was trained on. When comparing induced scheduling costs, our neural network vastly outperforms a competetive advanced dispatching rule.<br>
 
-# Quick Guide
-
-<h4>Apply Neural Network to Custom Scheduling Problems</h4>
-
-Create schedules with our neural network for custom offline job scheduling problems on unrelated machines with the [Main.ipynb](https://github.com/DiegoHitzges/Deep-Learning-for-Unrelated-Machines-Scheduling/blob/main/Notebooks/Action_Pointer.ipynb) notebook.
 
 # Code
+
+Create schedules with our neural network for custom offline job scheduling problems on unrelated machines
 
 All the code is written in Python 3 and uploaded as Jupyter [Notebooks](https://github.com/DiegoHitzges/Deep-Learning-for-Unrelated-Machines-Scheduling/tree/main/Notebooks). The main notebook to apply our approach is [Main.ipynb](https://github.com/DiegoHitzges/Deep-Learning-for-Unrelated-Machines-Scheduling/blob/main/Notebooks/Action_Pointer.ipynb), while the [Full_Framework.ipynb](https://github.com/DiegoHitzges/Deep-Learning-for-Unrelated-Machines-Scheduling/blob/main/Notebooks/Full_Framework.ipynb) notebook explains the entire process of our framework. Details of the neural network architecture are given in the notebook [Neural_Network.ipynb](https://github.com/DiegoHitzges/Deep-Learning-for-Unrelated-Machines-Scheduling/blob/main/Notebooks/Neural_Network.ipynb).
 
