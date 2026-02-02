@@ -2,7 +2,7 @@
 
 Official repository for [Deep Learning for Unrelated-Machines Scheduling: Handling Variable Dimensions](https://arxiv.org/pdf/2512.19527), by [Diego Hitzges](https://www.linkedin.com/in/diego-de-oliveira-hitzges-410943276/) and [Guillaume Sagnol](https://www.linkedin.com/in/guillaume-sagnol-a24bb89/).
 
-## Citation
+### Citation
 If you use this work in your research, please cite it as follows:
 
 ```bibtex
@@ -13,21 +13,10 @@ If you use this work in your research, please cite it as follows:
   year      = {2025}
 }
 ```
-<br><hr>
 
-# Quick Guide
+### Theory
 
-<h4>Apply Neural Network to Custom Scheduling Problems</h4>
-
-Create schedules with our neural network for custom offline job scheduling problems on unrelated machines with the [Main.ipynb](https://github.com/DiegoHitzges/Deep-Learning-for-Unrelated-Machines-Scheduling/blob/main/Notebooks/Action_Pointer.ipynb) notebook.
-
-<br><hr>
-
-# Theory
-
-For a detailed explanation of our approach, see our paper that is currently under submission and will be uploaded upon acceptance.
-
-<ins>Probem:</ins><br>
+<ins>Problem:</ins><br>
 
 We treat offline job scheduling problems on unrelated machines with an initial occupation and deterministic processing times. Both, jobs and machines, have deadlines and weights for exceeding those deadlines. The goal is to minimize a complex objective function consisting of the total sum of the makespan and the weighted tardiness of jobs and machines.<br>
 
@@ -38,6 +27,11 @@ Our approach is to use deep learning to create efficient schedules. We introduce
 
 Our neural network creates almost perfect schedules for small problem instances and demonstrates remarkable generalization capabilities to scheduling problems with much higher numbers of jobs and machines than it was trained on. When comparing induced scheduling costs, our neural network vastly outperforms a competetive advanced dispatching rule.<br>
 
+# Quick Guide
+
+<h4>Apply Neural Network to Custom Scheduling Problems</h4>
+
+Create schedules with our neural network for custom offline job scheduling problems on unrelated machines with the [Main.ipynb](https://github.com/DiegoHitzges/Deep-Learning-for-Unrelated-Machines-Scheduling/blob/main/Notebooks/Action_Pointer.ipynb) notebook.
 
 # Code
 
