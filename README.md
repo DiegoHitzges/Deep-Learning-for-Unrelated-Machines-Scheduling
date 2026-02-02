@@ -9,7 +9,7 @@ If you use this work in your research, please cite it as follows:
 @InProceedings{Hitzges25icmla,
   title     = {Deep Learning for Unrelated-Machines Scheduling: Handling Variable Dimensions},
   author    = {Hitzges, Diego and Sagnol, Guillaume},
-  booktitle = {International Conference on Machine Learning and Applications},
+  booktitle = {International Conference on Machine Learning and Applications (ICMLA)},
   year      = {2025}
 }
 ```
